@@ -11112,5 +11112,123 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.intro {
+  font-family: "Poppins", sans-serif;
+}
+.intro-heading {
+  font-weight: 700;
+  font-size: 3rem;
+}
+@media (max-width: 768px) {
+  .intro-heading {
+    text-align: center;
+  }
+}
+.intro-description {
+  font-size: 1.2rem;
+}
+@media (max-width: 768px) {
+  .intro-description {
+    text-align: center;
+  }
+}
 
-/*# sourceMappingURL=style.css.map */
+.btn-rounded {
+  font-weight: 800;
+  font-size: 1.2rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.javascript .heading-line::before {
+  content: "";
+  width: 10rem;
+  height: 0.2rem;
+  display: block;
+  background-color: #08a3f7;
+  margin: 0 auto;
+}
+.javascript .heading-line::after {
+  content: "";
+  width: 2rem;
+  height: 0.2rem;
+  display: block;
+  background-color: #08a3f7;
+  margin: 0 auto 1rem;
+  padding-top: 0.5rem;
+}
+
+.btn-rounded {
+  position: relative;
+  padding: 0.5em 3.5em 0.5em 1em;
+  color: #08a3f7;
+}
+.btn-rounded span {
+  position: absolute;
+  background-color: #08fc4b;
+  width: 1.8em;
+  height: 1.8em;
+  top: 50%;
+  right: 10%;
+  transform: translateY(-50%);
+  border-radius: 50%;
+}
+.btn-rounded span i {
+  color: #fff;
+  line-height: 1.8;
+}
+
+.btn-rounded:hover {
+  background: linear-gradient(160deg, rgba(8, 163, 247, 0.95), rgba(8, 252, 75, 0.95));
+  color: #fff;
+  border: 0.1em #fff solid;
+}
+.btn-rounded:hover span {
+  background-color: #08a3f7;
+}
+
+.navbar {
+  background: linear-gradient(160deg, rgba(8, 163, 247, 0.95), rgba(8, 252, 75, 0.95));
+}
+.navbar .nav-link {
+  font-weight: 700;
+  color: #fff !important;
+}
+@media (max-width: 768px) {
+  .navbar .navbar-nav {
+    text-align: center;
+  }
+}
+
+.intro {
+  background: linear-gradient(160deg, rgba(8, 163, 247, 0.95), rgba(8, 252, 75, 0.95));
+  color: #fff;
+}
+.intro-text {
+  padding-top: 10em;
+}
+@media (max-width: 768px) {
+  .intro-text {
+    margin: 0 auto;
+    display: block;
+    padding-top: 5em;
+  }
+}
+.intro-img {
+  padding-top: 7em;
+  float: right;
+}
+@media (max-width: 768px) {
+  .intro-img {
+    margin: auto;
+    display: block;
+    padding-top: 2em;
+  }
+}
+@media (max-width: 768px) {
+  .intro .btn-rounded {
+    margin: auto;
+    display: block;
+  }
+}
+
+/*# sourceMappingURL=homeStyle.css.map */

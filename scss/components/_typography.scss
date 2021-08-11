@@ -1,0 +1,51 @@
+@use '../custom-vars' as *;
+
+//intro section
+.intro {
+
+    font-family: 'Poppins', sans-serif;
+
+    &-heading {
+        font-weight: 700;
+        font-size: 3rem;
+        @media(max-width: 768px) {
+            text-align: center;
+        }
+    }
+
+    &-description {
+        font-size: 1.2rem;
+        @media(max-width: 768px) {
+            text-align: center;
+        }
+    }
+}
+
+.btn-rounded {
+    font-weight: 800;
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+//javascript projects section
+.javascript {
+    .heading-line::before {
+        content: "";
+        width: 10rem;
+        height:0.2rem;
+        display: block;
+        background-color: $primary;
+        margin: 0 auto;
+    }
+
+    .heading-line::after {
+        content: "";
+        width: 2rem;
+        height:0.2rem;
+        display: block;
+        background-color: $primary;
+        margin: 0 auto 1rem;
+        padding-top: 0.5rem;
+    }
+    
+}

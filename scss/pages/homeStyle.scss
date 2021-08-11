@@ -1,0 +1,53 @@
+@use '../custom-vars';
+@use '../components/mixins';
+@use '../components/typography';
+@use '../components/buttons';
+
+//navbar section
+.navbar {
+    @include mixins.gradient;
+
+    .nav-link {
+        font-weight: 700;
+        color: custom-vars.$white !important;
+    }
+
+    .navbar-nav {
+        @media(max-width: 768px) {
+           text-align: center;
+        }
+    }
+
+}
+
+//intro section
+.intro {
+    @include mixins.gradient;
+    color: custom-vars.$white;
+
+    &-text {
+        padding-top: 10em;
+        @media(max-width: 768px) {
+            margin:0 auto;
+            display:block;
+            padding-top: 5em;
+        }
+    }
+
+    &-img {
+        padding-top: 7em;
+        float:right;
+        @media(max-width: 768px) {
+            margin:auto;
+            display:block;
+            padding-top: 2em;
+        }
+    }
+
+    .btn-rounded{
+        @media(max-width: 768px) {
+            margin:auto;
+            display:block;
+        }
+    }
+}
