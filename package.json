@@ -14,12 +14,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/KavishkaGunathilaka/webPractice.git"
+    "url": "git+https://github.com/KavishkaGunathilaka/webdev.git"
   },
   "author": "Kavishka Gunathilaka",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/KavishkaGunathilaka/webPractice/issues"
+    "url": "https://github.com/KavishkaGunathilaka/webdev/issues"
   },
   "homepage": "https://kavishkagunathilaka.github.io/webdev/"
 }
