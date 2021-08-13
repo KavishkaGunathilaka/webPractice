@@ -1,0 +1,25 @@
+{
+  "name": "webpractice",
+  "version": "1.0.0",
+  "description": "Learning html/css/js",
+  "main": "index.js",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "bootstrap": "^5.1.0",
+    "sass": "^1.37.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "watch:sass": "sass --watch scss:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KavishkaGunathilaka/webPractice.git"
+  },
+  "author": "Kavishka Gunathilaka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KavishkaGunathilaka/webPractice/issues"
+  },
+  "homepage": "https://github.com/KavishkaGunathilaka/webPractice#readme"
+}
