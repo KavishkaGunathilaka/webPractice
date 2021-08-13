@@ -10,6 +10,7 @@
         font-size: 3rem;
         @media(max-width: 768px) {
             text-align: center;
+            font-size: 2.5rem;
         }
     }
 
@@ -17,6 +18,7 @@
         font-size: 1.2rem;
         @media(max-width: 768px) {
             text-align: center;
+            font-size: 1rem;
         }
     }
 }
@@ -25,6 +27,9 @@
     font-weight: 800;
     font-size: 1.2rem;
     font-family: 'Poppins', sans-serif;
+    @media(max-width: 768px) {
+        font-size: 1rem;
+    }
 }
 
 //javascript projects section
@@ -48,4 +53,35 @@
         padding-top: 0.5rem;
     }
     
+}
+
+.btn-color {
+    font-family: 'Poppins', sans-serif;
+    &-text{
+        font-size: 2.7rem;
+        font-weight: 800;
+        text-align: center;
+    }
+    text-shadow: -0.1em 0.1em 0 #FFF,
+                0.1em 0.1em 0 #FFF,
+                0.1em -0.1em 0 #FFF,
+                -0.1em -0.1em 0 #FFF;
+    
+}
+
+.color-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5em;
+    font-weight: 600;
+    text-align: center;
+    margin: 0;
+    position: fixed;
+    top: 65%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-shadow: -0.05em 0.05em 0 #FFF,
+                0.05em 0.05em 0 #FFF,
+                0.05em -0.05em 0 #FFF,
+                -0.05em -0.05em 0 #FFF;
 }

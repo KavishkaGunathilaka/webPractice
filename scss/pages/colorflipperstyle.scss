@@ -1,0 +1,42 @@
+@use '../custom-vars' as *;
+@use '../components/mixins';
+@use '../components/typography';
+@use '../components/buttons';
+
+//navbar section
+.navbar {
+    @include mixins.gradient;
+
+    .nav-link {
+        font-weight: 700;
+        color: $white !important;
+    }
+
+    .navbar-nav {
+        @media(max-width: 768px) {
+           text-align: center;
+        }
+    }
+
+}
+
+body {
+    background: #f1f5f8;
+}
+
+.btn-color {
+    margin: 0;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    padding: 0.2em 3em;
+    color: #f1f5f8;
+    border: 0.1em $white solid;
+    background-color: black;
+
+    &:active {
+       padding: 0.3em 3.3em;
+    }
+}

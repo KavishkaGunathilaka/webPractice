@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap v5 Themekit</title>
-    <link rel="stylesheet" href="../css/pages/homeStyle.css">
+    <title>Color Flipper</title>
+    <link rel="stylesheet" href="../css/pages/colorflipperstyle.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -23,16 +23,26 @@
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-link" aria-current="page" href="../index.html">Home</a>
-            <a class="nav-link" aria-current="page" href="colorflipper.html">Color Flipper</a>
-            <a class="nav-link" aria-current="page" href="#">Counter</a>
+            <a class="nav-link" aria-current="page" href="../index.html#intro">Home</a>
+            <a class="nav-link" aria-current="page" href="../index.html#projects">Js Projects</a>
+            <a class="nav-link" aria-current="page" href="../index.html#contact">Contact</a>
             <!-- <a class="nav-link" aria-current="page" href="#">Home</a> -->
           </div>
         </div>
       </div>
   </nav>
 
-  <script src="js/bootstrap.min.js"></script>
+  <button class="btn rounded-pill shadow btn-color" id="btn-color">
+    <span class="btn-color-text align-middle">
+      Flip
+    </span>
+  </button>
+  <div class="color-text">
+    #F1F5F8
+  </div>
+
+  <script src="/js/bootstrap.min.js"></script>
+  <script src="/js/colorflipper.js"></script>
   <!-- <script src="assets/js/popper.min.js"></script> -->
 
 </body>
