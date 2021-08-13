@@ -11241,36 +11241,16 @@ textarea.form-control-lg {
   }
 }
 
-.intro {
-  background: linear-gradient(160deg, rgba(8, 163, 247, 0.95), rgba(8, 252, 75, 0.95));
-  color: #fff;
-}
-.intro-text {
-  padding-top: 10em;
-}
-@media (max-width: 768px) {
-  .intro-text {
-    margin: 0 auto;
-    display: block;
-    padding-top: 5em;
-  }
-}
-.intro-img {
-  padding-top: 7em;
-  float: right;
-}
-@media (max-width: 768px) {
-  .intro-img {
-    margin: auto;
-    display: block;
-    padding-top: 2em;
-  }
-}
-@media (max-width: 768px) {
-  .intro .btn-rounded {
-    margin: auto;
-    display: block;
-  }
+.counter {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
-/*# sourceMappingURL=homeStyle.css.map */
+body {
+  background-color: #F2F2F2;
+}
+
+/*# sourceMappingURL=counter.css.map */

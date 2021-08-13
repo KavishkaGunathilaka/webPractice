@@ -20,26 +20,14 @@
 
 }
 
-body {
-    background: #f1f5f8;
-}
-
-.elements {
+.counter {
     position: fixed;
     top: 50%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+}
 
-    .btn-color {
-        margin: 0;
-        padding: 0.2em 3em;
-        color: #f1f5f8;
-        border: 0.1em $white solid;
-        background-color: black;
-    
-        &:active {
-           padding: 0.3em 3.3em;
-        }
-    }
+body {
+    background-color: #F2F2F2;
 }

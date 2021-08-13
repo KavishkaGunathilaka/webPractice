@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Color Flipper</title>
-    <link rel="stylesheet" href="../css/pages/colorflipperstyle.css">
+    <link rel="stylesheet" href="../css/pages/counter.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -31,20 +31,26 @@
       </div>
   </nav>
 
-  <div class="elements">
-    <button class="btn rounded-pill shadow btn-color" id="btn-color">
-      <span class="btn-color-text align-middle">
-        Flip
-      </span>
-    </button>
-    <div class="color-text">
-    #F1F5F8
-    </div>
-  </div>
+  <main>
+      <div class="counter shadow p-3">
+          <h1>Counter</h1>
+          <span id="value">0</span>
+          <div class="row btn-container">
+                <div class="col-sm-4">
+                    <button class="btn increase">Increase</button>
+                </div>
+                <div class="col-sm-4">
+                    <button class="btn reset">Reset</button>
+                </div>
+                <div class="col-sm-4">
+                    <button class="btn decrease">Decrease</button>
+                </div>
+          </div>
+      </div>
+  </main>
 
   <script src="../js/bootstrap.min.js" type="text/javascript"></script>
-  <script src="../js/colorflipper.js" type="text/javascript"></script>
+  <script src="../js/counter.js" type="text/javascript"></script>
 
 </body>
-
 </html>

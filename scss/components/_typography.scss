@@ -55,17 +55,19 @@
     
 }
 
+// color flipper
 .btn-color {
     font-family: 'Poppins', sans-serif;
     &-text{
         font-size: 2.7rem;
         font-weight: 800;
         text-align: center;
+        letter-spacing: 0.3rem;
     }
-    text-shadow: -0.1em 0.1em 0 #FFF,
-                0.1em 0.1em 0 #FFF,
-                0.1em -0.1em 0 #FFF,
-                -0.1em -0.1em 0 #FFF;
+    text-shadow: -0.05em 0.05em 0 #FFF,
+                0.05em 0.05em 0 #FFF,
+                0.05em -0.05em 0 #FFF,
+                -0.05em -0.05em 0 #FFF;
     
 }
 
@@ -74,14 +76,28 @@
     font-size: 1.5em;
     font-weight: 600;
     text-align: center;
-    margin: 0;
-    position: fixed;
-    top: 65%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
     text-shadow: -0.05em 0.05em 0 #FFF,
                 0.05em 0.05em 0 #FFF,
                 0.05em -0.05em 0 #FFF,
                 -0.05em -0.05em 0 #FFF;
+}
+
+//counter
+.counter {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+
+    h1 {
+        font-weight: 400;
+        font-size: 3em;
+    }
+
+    #value {
+        font-weight: 500;
+        font-size: 7em;
+    }
+    
+    .col-sm-4 {
+        padding: 0;
+    }
 }

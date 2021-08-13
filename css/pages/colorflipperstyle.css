@@ -11166,12 +11166,13 @@ textarea.form-control-lg {
 
 .btn-color {
   font-family: "Poppins", sans-serif;
-  text-shadow: -0.1em 0.1em 0 #FFF, 0.1em 0.1em 0 #FFF, 0.1em -0.1em 0 #FFF, -0.1em -0.1em 0 #FFF;
+  text-shadow: -0.05em 0.05em 0 #FFF, 0.05em 0.05em 0 #FFF, 0.05em -0.05em 0 #FFF, -0.05em -0.05em 0 #FFF;
 }
 .btn-color-text {
   font-size: 2.7rem;
   font-weight: 800;
   text-align: center;
+  letter-spacing: 0.3rem;
 }
 
 .color-text {
@@ -11179,13 +11180,23 @@ textarea.form-control-lg {
   font-size: 1.5em;
   font-weight: 600;
   text-align: center;
-  margin: 0;
-  position: fixed;
-  top: 65%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
   text-shadow: -0.05em 0.05em 0 #FFF, 0.05em 0.05em 0 #FFF, 0.05em -0.05em 0 #FFF, -0.05em -0.05em 0 #FFF;
+}
+
+.counter {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+.counter h1 {
+  font-weight: 400;
+  font-size: 3em;
+}
+.counter #value {
+  font-weight: 500;
+  font-size: 7em;
+}
+.counter .col-sm-4 {
+  padding: 0;
 }
 
 .btn-rounded {
@@ -11234,19 +11245,21 @@ body {
   background: #f1f5f8;
 }
 
-.btn-color {
-  margin: 0;
+.elements {
   position: fixed;
   top: 50%;
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+}
+.elements .btn-color {
+  margin: 0;
   padding: 0.2em 3em;
   color: #f1f5f8;
   border: 0.1em #fff solid;
   background-color: black;
 }
-.btn-color:active {
+.elements .btn-color:active {
   padding: 0.3em 3.3em;
 }
 
