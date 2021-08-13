@@ -11188,7 +11188,7 @@ textarea.form-control-lg {
   font-family: "Poppins", sans-serif;
 }
 .counter h1 {
-  font-weight: 400;
+  font-weight: 500;
   font-size: 3em;
 }
 .counter #value {
@@ -11197,6 +11197,51 @@ textarea.form-control-lg {
 }
 .counter .col-sm-4 {
   padding: 0;
+}
+.counter .btn {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+@media (max-height: 500px) {
+  .counter h1 {
+    font-size: 2em;
+  }
+  .counter #value {
+    font-size: 5em;
+  }
+  .counter .btn {
+    font-size: 1em;
+  }
+}
+@media (max-height: 400px) {
+  .counter h1 {
+    font-size: 1.5em;
+  }
+  .counter #value {
+    font-size: 3.5em;
+  }
+  .counter .btn {
+    font-size: 0.8em;
+  }
+}
+@media (max-height: 350px) {
+  .counter h1 {
+    font-size: 1em;
+  }
+  .counter #value {
+    font-size: 2.5em;
+  }
+  .counter .btn {
+    font-size: 0.5em;
+  }
+}
+@media (max-height: 300px) {
+  .counter h1 {
+    font-size: 0.8em;
+  }
+  .counter #value {
+    font-size: 2.1em;
+  }
 }
 
 .btn-rounded {
@@ -11242,14 +11287,28 @@ textarea.form-control-lg {
 }
 
 .counter {
-  position: fixed;
+  position: absolute;
   top: 50%;
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+  width: 50%;
+  box-shadow: 0.05em 0.05em 0.5em 0.03em #08a3f7, -0.05em -0.05em 0.5em 0.03em #08fc4b;
+}
+@media (max-width: 576px) {
+  .counter {
+    width: auto;
+  }
+}
+.counter .btn:hover {
+  box-shadow: 0.1em 0.1em 0.5em #adb5bd, -0.1em -0.1em 0.5em #adb5bd;
+}
+.counter .btn:active {
+  box-shadow: 0.1em 0.1em 0.1em #adb5bd, -0.1em -0.1em 0.1em #adb5bd;
 }
 
 body {
+  padding-top: 20em;
   background-color: #F2F2F2;
 }
 
