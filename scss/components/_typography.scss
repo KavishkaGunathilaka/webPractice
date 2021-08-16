@@ -86,15 +86,15 @@
 .counter {
     text-align: center;
     font-family: 'Poppins', sans-serif;
+    min-width: 70%;
 
     h1 {
         font-weight: 500;
-        font-size: 3em;
     }
 
     #value {
         font-weight: 500;
-        font-size: 7em;
+        font-size: 5rem;
     }
     
     .col-sm-4 {
@@ -104,60 +104,89 @@
     .btn {
         text-align: center;
         font-family: 'Poppins', sans-serif;
+        font-size: 1rem;
     }
 
-    @media(max-height: 500px) {
+    @media (min-width: 768px) {
         h1 {
-            font-size: 2em;
+            font-size: 3rem;
         }
     
         #value {
-            font-size: 5em;
+            font-size: 6rem;
         }
 
         .btn {
-            font-size: 1em;
+            font-size: 1.3rem;
         }
-
     }
 
-    @media(max-height: 400px) {
+    @media (min-width: 1100px) {
         h1 {
-            font-size: 1.5em;
+            font-size: 3.5rem;
         }
     
         #value {
-            font-size: 3.5em;
+            font-size: 8rem;
         }
 
         .btn {
-            font-size:0.8em;
+            font-size: 1.7rem;
         }
-
     }
 
-    @media(max-height: 350px) {
+    @media (min-width: 1400px) {
         h1 {
-            font-size: 1em;
+            font-size: 5rem;
         }
     
         #value {
-            font-size: 2.5em;
+            font-size: 10rem;
         }
 
         .btn {
-            font-size:0.5em;
+            font-size: 2rem;
         }
-
     }
 
-    @media(max-height: 300px) {
-        h1 {
-            font-size: 0.8em;
-        }
     
-        #value {
-            font-size: 2.1em;
+
+
+}
+
+//quotes page
+section{
+    font-family: 'Poppins', sans-serif;
+
+    h4 {
+        margin-bottom: 0.1em;
+    }
+
+    h2 {
+        margin-bottom: 0.1em;
+        font-weight: 600;
+        letter-spacing: 0.5em;
+    }
+
+    #info {
+        color: $primary;
+    }
+
+    p {
+        font-size: 1.3rem;
+    }
+
+    @media (max-width: 576px) {
+        h2 {
+            font-size: 1.5rem;
+        }
+
+        h4 {
+            font-size: 1rem;
+        }
+
+        p {
+            font-size: 0.7rem;
         }
 
     }

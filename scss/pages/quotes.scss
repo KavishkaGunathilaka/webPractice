@@ -1,0 +1,85 @@
+@use '../custom-vars' as *;
+@use '../components/mixins';
+@use '../components/typography';
+@use '../components/buttons';
+
+//navbar section
+.navbar {
+    @include mixins.gradient;
+
+    .nav-link {
+        font-weight: 700;
+        color: $white !important;
+    }
+
+    .navbar-nav {
+        @media(max-width: 768px) {
+           text-align: center;
+        }
+    }
+
+}
+
+body {
+
+    .d-flex {
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+      
+    }
+
+    @media (max-height: 660px) {
+        padding-top:3em;
+    }
+
+    @media (max-height: 550px) {
+        padding:5em 0 2em 0;
+    }
+
+    @media (max-height: 455px) {
+        padding:7em 0 4em 0;
+    }
+
+}
+
+section{
+
+    .rounded-circle{
+        border-radius:50%;
+        width:13em;
+        height:13em;
+        object-fit:cover;
+    }
+
+    .underline {
+        width: 8%;
+        height: 0.1em;
+        background-color: $primary;
+        margin: auto;
+    }
+
+    @media (min-width: 280px) {
+        max-width: 270px;
+    }
+
+    @media (min-width: 350px) {
+        max-width: 330px;
+    }
+
+    @media (min-width: 400px) {
+        max-width: 370px;
+    }
+    
+    @media (min-width: 450px) {
+        max-width: 400px;
+    }
+
+    @media (max-width: 576px) {
+        .rounded-circle{
+            width:7em;
+            height:7em;
+        }
+    }
+
+}

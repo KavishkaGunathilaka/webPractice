@@ -21,17 +21,8 @@
 }
 
 .counter { 
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
     width: 50%;
     box-shadow: 0.05em 0.05em 0.5em 0.03em $primary, -0.05em -0.05em 0.5em 0.03em $secondary;
-
-    @media(max-width: 576px) {
-        width: auto;
-    }
 
     .btn:hover {
         box-shadow: 0.1em 0.1em 0.5em $gray-500, -0.1em -0.1em 0.5em $gray-500;
@@ -44,6 +35,28 @@
 }
 
 body {
-    padding-top: 20em;
     background-color: #F2F2F2;
+    .d-flex {
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+      
+    }
+
+    @media (max-height: 660px) {
+        padding-top:1.5em;
+    }
+
+    @media (max-height: 550px) {
+        padding:2.5em 0 1em 0;
+    }
+
+    @media (max-height: 455px) {
+        padding:4.5em 0 2em 0;
+    }
+
+    @media (max-height: 300px) {
+        padding:6em 0 3em 0;
+    }
+
 }
