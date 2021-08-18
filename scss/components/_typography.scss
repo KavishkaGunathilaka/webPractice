@@ -163,6 +163,7 @@ section{
     }
 
     h2 {
+        margin-top: 0.5em;
         margin-bottom: 0.1em;
         font-weight: 600;
         letter-spacing: 0.5em;
@@ -174,6 +175,26 @@ section{
 
     p {
         font-size: 1.3rem;
+    }
+
+    .btn-container {
+       .btn {
+            color: $primary;
+            font-size: 2rem;
+        }
+
+        .btn:hover {
+            color: $secondary;
+        }
+
+        .btn:active {
+            color: $secondary-dark;
+        }
+
+    }
+
+    .btn-outline-primary:hover {
+        color: $white;
     }
 
     @media (max-width: 576px) {

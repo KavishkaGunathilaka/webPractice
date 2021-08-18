@@ -11244,6 +11244,7 @@ section h4 {
   margin-bottom: 0.1em;
 }
 section h2 {
+  margin-top: 0.5em;
   margin-bottom: 0.1em;
   font-weight: 600;
   letter-spacing: 0.5em;
@@ -11253,6 +11254,19 @@ section #info {
 }
 section p {
   font-size: 1.3rem;
+}
+section .btn-container .btn {
+  color: #08a3f7;
+  font-size: 2rem;
+}
+section .btn-container .btn:hover {
+  color: #08fc4b;
+}
+section .btn-container .btn:active {
+  color: #079a2e;
+}
+section .btn-outline-primary:hover {
+  color: #fff;
 }
 @media (max-width: 576px) {
   section h2 {

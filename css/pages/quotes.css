@@ -11244,6 +11244,7 @@ section h4 {
   margin-bottom: 0.1em;
 }
 section h2 {
+  margin-top: 0.5em;
   margin-bottom: 0.1em;
   font-weight: 600;
   letter-spacing: 0.5em;
@@ -11253,6 +11254,19 @@ section #info {
 }
 section p {
   font-size: 1.3rem;
+}
+section .btn-container .btn {
+  color: #08a3f7;
+  font-size: 2rem;
+}
+section .btn-container .btn:hover {
+  color: #08fc4b;
+}
+section .btn-container .btn:active {
+  color: #079a2e;
+}
+section .btn-outline-primary:hover {
+  color: #fff;
 }
 @media (max-width: 576px) {
   section h2 {
@@ -11313,9 +11327,15 @@ body .d-flex {
   display: flex;
   align-items: center;
 }
-@media (max-height: 660px) {
+@media (max-height: 825px) {
   body {
     padding-top: 3em;
+    padding-bottom: 2em;
+  }
+}
+@media (max-height: 700px) {
+  body {
+    padding-top: 5em;
   }
 }
 @media (max-height: 550px) {
@@ -11333,7 +11353,7 @@ section .rounded-circle {
   border-radius: 50%;
   width: 13em;
   height: 13em;
-  object-fit: cover;
+  object-fit: scale-down;
 }
 section .underline {
   width: 8%;
